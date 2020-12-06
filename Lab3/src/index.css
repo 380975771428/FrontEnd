@@ -1,0 +1,78 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.app {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 244, 230);
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  margin: 5px;
+}
+
+.header {
+  flex: 1;
+  display: flex;
+  padding: 10px;
+  background-color: rgb(255, 230, 197);
+  font-weight: bold;
+  border: 1px solid rgb(129, 100, 62);
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  padding: 10px;
+  background-color:rgb(255, 245, 233);
+  border: 1px solid rgb(201, 190, 176);
+}
+
+.elements {
+  flex: 1;
+  display: flex;
+  text-align: center;
+}
+
+.elements span {
+  flex: 1;
+}
+
+
+.removeBtn {
+  background-color:rgb(255, 245, 233);
+  display: flex;
+  width: 25px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.removeBtn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.mrg25 {
+  width: 25px;
+}
+
+
+form {
+  flex: 1;
+  display: flex;
+}
+
+form input {
+  flex: 1;
+}
+
+#dateInput {
+  margin: 0 5px;
+}

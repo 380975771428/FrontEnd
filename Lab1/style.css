@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    flex: 1;
+	background-color: #6495ED;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: 5;
+}
+
+nav {
+    flex: 1;
+    background-color: #9370DB;
+}
+
+article {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+    background-color: #DB7093;
+}
+
+footer {
+    flex: 1;
+    background-color: #6495ED;
+}
+
+.pad {
+	padding: 10px;
+}
+
+@media screen and (max-device-width: 500px) {
+    body {
+        flex-direction: column;
+    }
+
+    main {
+        flex-direction: column;
+    }
+}
